@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Abdelrahman Yousef — Front-End Developer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@400;600;700;900&family=Manrope:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header>
+  <div class="logo">Abdelrahman.DEV</div>
+  <nav>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#work">Work</a></li>
+      <li><a href="#journey">Journey</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<section class="hero">
+  <canvas id="particles"></canvas>
+  <div class="hero-inner">
+    <div class="eyebrow">AVAILABLE FOR FREELANCE &amp; FULL-TIME ROLES</div>
+    <h1 class="hero-title">
+      <span class="line"><span>Abdelrahman</span></span>
+      <span class="line"><span>builds interfaces</span></span>
+      <span class="line"><span>that move.</span></span>
+    </h1>
+    <div class="hero-role">&gt; <span id="typedRole"></span><span class="cursor-blink">_</span></div>
+    <p class="hero-desc">Front-end developer focused on motion-driven web experiences — where every scroll, hover and load feels considered, not decorative. HTML, CSS, JavaScript, React, GSAP.</p>
+    <div class="hero-cta">
+      <a href="#work" class="btn btn-primary">View my work →</a>
+      <a href="#contact" class="btn btn-ghost">Let's talk</a>
+    </div>
+  </div>
+  <div class="scroll-cue"><div class="bar"></div>SCROLL</div>
+</section>
+
+<div class="marquee-wrap">
+  <div class="marquee" id="marquee">
+    <span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>Git &amp; GitHub</span><span>Figma</span>
+    <span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>Git &amp; GitHub</span><span>Figma</span>
+  </div>
+</div>
+
+<<section id="about">
+  <div class="about-grid">
+    <div class="about-text">
+      <span class="section-num reveal">01 / ABOUT</span>
+      <h2 class="reveal" style="margin-bottom:1.8rem;">I turn static designs into experiences people remember.</h2>
+      <p class="reveal"><strong>I'm Abdelrahman</strong>, a front-end developer who believes the difference between a good site and a great one is almost always in the details of motion — the easing curve on a hover, the timing of a scroll reveal, the little delay that makes an interface feel alive instead of static.</p>
+      <p class="reveal">I care about performance as much as polish: animations that run at 60fps, respect <code>prefers-reduced-motion</code>, and never get in the way of the content they're meant to elevate.</p>
+      <div class="stat-row reveal">
+        <div class="stat"><b>20+</b><span>PROJECTS SHIPPED</span></div>
+        <div class="stat"><b>60fps</b><span>ANIMATION TARGET</span></div>
+        <div class="stat"><b>100%</b><span>SELF-TAUGHT</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section id="skills">
+  <div class="section-head reveal">
+    <div>
+      <span class="section-num">02 / SKILLS</span>
+      <h2>What I work with.</h2>
+    </div>
+  </div>
+  <div class="skill-list">
+    <div class="skill-item reveal"><span class="icon">01</span><h3>HTML &amp; CSS</h3><p>Semantic markup, modern CSS — Grid, Flexbox, custom properties, animations.</p></div>
+    <div class="skill-item reveal"><span class="icon">02</span><h3>JavaScript (ES6+)</h3><p>DOM, async/await, array methods, clean vanilla JS when a framework isn't needed.</p></div>
+    <div class="skill-item reveal"><span class="icon">05</span><h3>Git &amp; GitHub</h3><p>Branching, pull requests, clean commit history, collaborative workflows.</p></div>
+    <div class="skill-item reveal"><span class="icon">06</span><h3>Figma</h3><p>Translating design files into pixel-accurate, responsive interfaces.</p></div>
+  </div>
+</section>
+
+<section id="work">
+  <div class="section-head reveal">
+    <div>
+      <span class="section-num">03 / SELECTED WORK</span>
+      <h2>Things I've built.</h2>
+    </div>
+  </div>
+  <div class="projects">
+    <a class="project-card reveal disabled" data-tilt href="https://abdelrahmanyousef372-stack.github.io/cafe-work/" aria-disabled="true">
+      <img src="img/cafee.png" alt="Cafe page project">
+      <div class="project-glow"></div>
+      <div class="project-tags"><span>js</span><span>css</span><span>html</span></div>
+      <h3>CAFE PAGE</h3>
+      <p>a cafe shop with animated web page</p>
+    </a>
+    <a class="project-card reveal disabled" data-tilt href="https://restrant.wasmer.app/" aria-disabled="true">
+      <img src="img/restrunt.png" alt="Restaurant page project">
+      <div class="project-glow"></div>
+      <div class="project-tags"><span>js</span><span>css</span><span>html</span></div>
+      <h3>Restaurant Page</h3>
+      <p>a Restaurant Page with animated web page</p>
+    </a>
+    <a class="project-card reveal disabled" data-tilt href="https://abdelrahman.wasmer.app/" aria-disabled="true">
+      <img src="img/abdo.png" alt="Client profile project">
+      <div class="project-glow"></div>
+      <div class="project-tags"><span>js</span><span>css</span><span>html</span></div>
+      <h3>profile for client</h3>
+      <p>profile for client to work</p>
+    </a>
+  </div>
+</section>
+
+<section id="journey">
+  <div class="section-head reveal">
+    <div>
+      <span class="section-num">04 / JOURNEY</span>
+      <h2>How I got here.</h2>
+    </div>
+  </div>
+  <div class="timeline">
+    <div class="t-item reveal">
+      <span class="t-year">2024</span>
+      <h3>Started learning to code</h3>
+      <p>Began with HTML, CSS and JavaScript fundamentals — building small static pages before touching any framework.</p>
+    </div>
+    <div class="t-item reveal">
+      <span class="t-year">2025</span>
+      <h3>JavaScript &amp; CSS</h3>
+      <p>deep learn for javascript and css</p>
+    </div>
+    <div class="t-item reveal">
+      <span class="t-year">2026</span>
+      <h3>Building a front end web sites</h3>
+      <p>Currently ican build websites</p>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="contact">
+  <div class="reveal">
+    <span class="section-num">05 / CONTACT</span>
+    <h2>Got a project in mind? Let's build it.</h2>
+    <p>I'm currently open to freelance work and full-time front-end roles.</p>
+    <a href="mailto:abdelrahmanyousef372@gmail.com" class="big-link">abdelrahmanyousef372@gmail.com</a>
+    <div class="social-row">
+      <a href="https://github.com/abdelrahmanyousef372-stack">git hub</a>
+      <a href="https://wa.me/1157586537">whatsapp</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <span>© 2026 Abdelrahman Yousef</span>
+  <span>Built with HTML, CSS &amp; JavaScript</span>
+</footer>
+
+<script>
+// typed role text
+const roles = ['Front-End Developer','Animation Enthusiast','Detail Obsessive'];
+const typedEl = document.getElementById('typedRole');
+let ri=0, ci=0, deleting=false;
+function typeLoop(){
+  const word = roles[ri];
+  if(!deleting){
+    ci++;
+    typedEl.textContent = word.slice(0,ci);
+    if(ci===word.length){ deleting=true; setTimeout(typeLoop,1400); return; }
+  } else {
+    ci--;
+    typedEl.textContent = word.slice(0,ci);
+    if(ci===0){ deleting=false; ri=(ri+1)%roles.length; }
+  }
+  setTimeout(typeLoop, deleting?35:70);
+}
+typeLoop();
+
+// hero title line reveal on load
+window.addEventListener('load', ()=>{
+  document.querySelectorAll('.hero-title .line span').forEach((s,i)=>{
+    s.style.transform='translateY(110%)';
+    s.style.transition='transform .9s cubic-bezier(.16,1,.3,1)';
+    s.style.transitionDelay=(i*0.12)+'s';
+    requestAnimationFrame(()=>requestAnimationFrame(()=>{ s.style.transform='translateY(0)'; }));
+  });
+});
+
+// scroll reveal
+const observer = new IntersectionObserver((entries)=>{
+  entries.forEach(entry=>{
+    if(entry.isIntersecting){ entry.target.classList.add('in'); observer.unobserve(entry.target); }
+  });
+},{threshold:0.15});
+document.querySelectorAll('.reveal').forEach(el=>observer.observe(el));
+
+// project card mouse glow position
+document.querySelectorAll('.project-card').forEach(card=>{
+  card.addEventListener('mousemove', e=>{
+    const r = card.getBoundingClientRect();
+    card.style.setProperty('--mx', ((e.clientX-r.left)/r.width*100)+'%');
+    card.style.setProperty('--my', ((e.clientY-r.top)/r.height*100)+'%');
+  });
+});
+
+// particle canvas background
+const canvas = document.getElementById('particles');
+const ctx = canvas.getContext('2d');
+let w,h,particles=[];
+const reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+function resize(){
+  w = canvas.width = canvas.parentElement.offsetWidth;
+  h = canvas.height = canvas.parentElement.offsetHeight;
+}
+resize();
+window.addEventListener('resize', resize);
+
+const count = reduced ? 0 : Math.min(70, Math.floor(w/22));
+for(let i=0;i<count;i++){
+  particles.push({
+    x: Math.random()*w, y: Math.random()*h,
+    vx: (Math.random()-0.5)*0.35, vy:(Math.random()-0.5)*0.35,
+    r: Math.random()*1.6+0.6
+  });
+}
+let mouseX=-9999, mouseY=-9999;
+canvas.parentElement.addEventListener('mousemove', e=>{
+  const r = canvas.getBoundingClientRect();
+  mouseX = e.clientX-r.left; mouseY = e.clientY-r.top;
+});
+function drawParticles(){
+  ctx.clearRect(0,0,w,h);
+  ctx.fillStyle = 'rgba(140,107,255,0.55)';
+  particles.forEach(p=>{
+    p.x+=p.vx; p.y+=p.vy;
+    if(p.x<0||p.x>w) p.vx*=-1;
+    if(p.y<0||p.y>h) p.vy*=-1;
+    const dx=p.x-mouseX, dy=p.y-mouseY, dist=Math.sqrt(dx*dx+dy*dy);
+    if(dist<130){ p.x += dx/dist*0.6; p.y += dy/dist*0.6; }
+    ctx.beginPath();
+    ctx.arc(p.x,p.y,p.r,0,Math.PI*2);
+    ctx.fill();
+  });
+  for(let i=0;i<particles.length;i++){
+    for(let j=i+1;j<particles.length;j++){
+      const a=particles[i], b=particles[j];
+      const d = Math.hypot(a.x-b.x, a.y-b.y);
+      if(d<110){
+        ctx.strokeStyle = `rgba(140,107,255,${0.12*(1-d/110)})`;
+        ctx.beginPath(); ctx.moveTo(a.x,a.y); ctx.lineTo(b.x,b.y); ctx.stroke();
+      }
+    }
+  }
+  if(!reduced) requestAnimationFrame(drawParticles);
+}
+drawParticles();
+</script>
+</body>
+</html>
