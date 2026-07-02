@@ -322,3 +322,10 @@ footer{
 @media (prefers-reduced-motion: reduce){
   *{animation-duration:.001ms !important; animation-iteration-count:1 !important; transition-duration:.001ms !important; scroll-behavior:auto !important;}
 }
+.line1{
+  display:block;
+  overflow:visible;
+  font-size:100px;
+
+
+}
